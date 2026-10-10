@@ -1,0 +1,29 @@
+{
+  "architecture": "GRU",
+  "seed": 7,
+  "maxlen": 200,
+  "vocab_size": 10000,
+  "embedding_dropout": 0.4,
+  "dense_dropout": 0.5,
+  "uncertain_half_width": 0.25,
+  "warn_short_tokens": 66,
+  "warn_unk_share": 0.115,
+  "test_accuracy_this_model": 0.85324,
+  "reported_mean_test_accuracy": 0.8622,
+  "reported_std": 0.0003,
+  "robustness_accuracy": {
+    "clean": 0.8532,
+    "UNK 10%": 0.8528,
+    "UNK 20%": 0.8426,
+    "UNK 30%": 0.8261,
+    "UNK 40%": 0.7922,
+    "Drop 10%": 0.8338,
+    "Drop 20%": 0.8205,
+    "Drop 30%": 0.8017,
+    "Last 25 tokens": 0.5971,
+    "Last 50 tokens": 0.6906,
+    "Last 100 tokens": 0.7884,
+    "Last 150 tokens": 0.8286
+  },
+  "low_conf_accuracy": 0.5856573705179283
+}
